@@ -1,0 +1,9 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4><i class="fa fa-fw fa-check"></i>{{the_title($item)}}</h4>
+    </div>
+    <div class="panel-body">
+        <p>{{the_content($item)}}</p>
+        <a href="{{url($item['data']['url'])}}" class="btn btn-default">{{$item['data']['button']}}</a>
+    </div>
+</div>
